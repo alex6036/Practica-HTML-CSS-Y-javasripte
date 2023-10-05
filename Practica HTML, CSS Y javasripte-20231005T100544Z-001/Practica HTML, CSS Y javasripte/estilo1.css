@@ -1,0 +1,9 @@
+.cuadro 
+{
+    width: 13.75em;
+    height: 13.75em;
+    background-color: red;
+    justify-content: center;
+    color: black;
+    font-family: Arial, sans-serif;
+}

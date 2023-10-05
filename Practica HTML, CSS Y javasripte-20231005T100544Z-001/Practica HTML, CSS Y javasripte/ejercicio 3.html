@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio 3</title>
+<link rel="stylesheet" href="estilo3.css">
+<script type="text/JavaScript" src="script3.js"></script>
+</head>
+<body>
+
+<h1 id="Examen">CCNA2 v7.0 SRWE Módulos 1 a 4</h1>
+
+<form name="form1">
+<div id="pregunta1">
+<p id="enunciado1">1. Un técnico está configurando un nuevo switch Cisco 2960. ¿Cuál es el efecto de emitir el comando BranchSw(config-if)# duplex full?</p>
+<p id="seleccion1">Seleccione una:<br>
+<input type="radio" name="pregunta1">a. Ajusta automáticamente el puerto para permitir que las conexiones del dispositivo utilicen un cable directo o cruzado.<br>
+<input type="radio" name="pregunta1">b. Cifra las contraseñas de modo de usuario cuando los usuarios se conectan de forma remota.<br>
+<input type="radio" name="pregunta1">c. Permite que los datos fluyan en ambas direcciones al mismo tiempo en la interfaz.<br> <!--Correcta-->
+<input type="radio" name="pregunta1">d. Permite que los datos fluyan en una sola dirección a la vez en la interfaz<br>
+</p>
+</div>
+
+<div id="pregunta2">
+<p id="enunciado2">2. Una red contiene varias VLAN que abarcan varios switchs. ¿Qué sucede cuando un dispositivo en la VLAN 20 envía una trama Ethernet de transmisión?</p>
+<p id="seleccion2">Seleccione una:<br>
+<input type="radio" name="pregunta2">a. Solo los dispositivos que están conectados al switch local ven la trama.<br>
+<input type="radio" name="pregunta2">b. Solo los dispositivos de la VLAN 20 ven la trama.<br> <!--Correcta-->
+<input type="radio" name="pregunta2">c. Todos los dispositivos de todas las VLAN ven la trama.<br>
+<input type="radio" name="pregunta2">d. Los dispositivos en la VLAN 20 y la VLAN de administración ven la trama.<br>
+</p>
+</div>
+ 
+<div id="pregunta3">
+<p id="enunciado3">3. ¿Qué comando muestra el tipo de encapsulación, la ID de VLAN de voz y la VLAN de modo de acceso para la interfaz Fa0/1?</p>
+<p id="seleccion3">Seleccione una:<br>
+<input type="radio" name="pregunta3">a. show interfaces trunk<br>
+<input type="radio" name="pregunta3">b. show mac address-table interface fa0/1<br> 
+<input type="radio" name="pregunta3">c. show vlan brief<br>
+<input type="radio" name="pregunta3">d. show interfaces fa0/1 switchport<br> <!--Correcta-->
+</p>
+</div>
+
+<div id="pregunta4">
+<p id="enunciado4">4. ¿Después de qué paso de la secuencia de arranque del switch se ejecuta el cargador de arranque?</p>
+<p id="seleccion4">Seleccione una:<br>
+<input type="radio" name="pregunta4">a. Después de la localización de IOS<br>
+<input type="radio" name="pregunta4">b. Después de la inicialización de la CPU<br> 
+<input type="radio" name="pregunta4">c. Después de la inicialización del sistema de archivos flash<br> 
+<input type="radio" name="pregunta4">d. Después de la ejecución POST<br> <!--Correcta-->
+ </p>
+</div><br>
+
+<div id="pregunta5">
+<p id="enunciado5">5. En un switch que está configurado con varias VLAN, ¿qué comando eliminará solo la VLAN 100 del switch?</p>
+<p id="seleccion5">Seleccione una:<br>
+<input type="radio" name="pregunta5">a. Switch(config)# no vlan 100<br> <!--Correcta-->
+<input type="radio" name="pregunta5">b. Switch(config-if)# no switchport trunk allowed vlan 100<br> 
+<input type="radio" name="pregunta5">c. Switch(config-if)# no switchport Access vlan 100<br> 
+<input type="radio" name="pregunta5">d. Switch# delete flash: vlan.dat<br> 
+</p>
+</div><br>
+
+ <button id="boton" name="Enviar" onclick="Nota()">Enviar</button>
+</form> 
+ 
+</body>
+</html>

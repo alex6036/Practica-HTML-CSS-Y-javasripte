@@ -1,0 +1,58 @@
+*
+{
+	margin: 0.5em;
+	margin-top: 0.4em;
+}
+	
+#titulo
+{
+	width:50em;
+	height:2em;
+	border:1px solid black;
+	text-align: justify;
+}
+	
+#motor
+{
+	width:50em;
+	height: 4em;
+	border:1px solid black;
+	margin-top: -7px;
+	text-align: justify;
+}
+	
+#puertas
+{
+	width:50em;
+	height: 4em;
+	border:1px solid black;
+	margin-top: -7px;
+	text-align: justify;
+}
+	
+#pintura
+{
+	width:50em;
+	height: 4em;
+	border:1px solid black;
+	margin-top: -6px;
+	text-align: justify;
+}
+	
+#seleccion
+{
+	width:50em;
+	height: 10em;
+	border:1px solid black;
+	margin-top: -7px;
+	text-align: justify;
+}
+
+#total
+{
+	width:50em;
+	border:1px solid black;
+	float: left;
+	margin-top: -7px;
+	text-align: justify;
+}

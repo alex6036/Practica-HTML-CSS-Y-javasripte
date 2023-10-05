@@ -1,0 +1,35 @@
+#titulo
+{
+    background-color: orange;
+    color: blue;
+    width: 16em;
+    height: 1.3em;
+	margin-left: 0.5em;
+    font-size: 200%;
+}
+#solicitud
+{
+    background-color: yellow;
+    border: 7px solid black;
+    height: 15em;
+    width: 45em;
+    margin-left: 0.5em;
+	margin-top: -1.5em;
+}
+#enviar
+{
+    color: blue;
+    font-size: 150%;
+    margin-left: 0.5em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#borrar
+{
+    color: blue;
+    font-size: 150%;
+    margin-left: 4em;
+    margin-top: -2.12em;
+    text-decoration: underline;
+    cursor: pointer;
+}

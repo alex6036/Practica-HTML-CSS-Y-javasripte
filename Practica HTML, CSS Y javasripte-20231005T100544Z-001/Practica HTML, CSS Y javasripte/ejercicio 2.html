@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+		<link rel="stylesheet" href="estilo2.css">
+        <script type="text/JavaScript" src="script2.js"></script>
+</head>
+</style>
+<body>
+<form name="form1">
+	<div id="titulo">
+        <p>Configuración del Coche</p>
+	</div>
+    <div id="motor">
+        <p>Tipo de Motor</p>
+        <input type="radio" name="motor">Gasolina 
+        <input type="radio" name="motor">Diesel (+1500 €)
+        <input type="radio" name="motor">Hibrido (+3000 €)<br><br>
+    </div>
+	
+    <div id="puertas">
+        <p>Tipo de Puertas</p>
+        <input type="radio" name="puertas">3 Puertas (-2000€) (Solo con Gasolina)
+        <input type="radio" name="puertas">5 Puertas
+        <input type="radio" name="puertas">Familiar (+1500 €)<br><br>
+    </div>
+	
+    <div id="pintura">
+        <p>Tipo de Pintura</p>
+        <input type="radio" name="pintura">Rojo
+        <input type="radio" name="pintura">Verde
+        <input type="radio" name="pintura">Naranja
+        <input type="radio" name="pintura">Blanco (-500 €)
+        <input type="radio" name="pintura">Negro (-600 €)<br><br>
+    </div>
+    <div id="seleccion">
+        <p>Seleccionar las que se deseen:</p>
+        <input type="checkbox" name="seleccion">Metalizada (+750 €) (Solo Rojo,Verde o Naranja)<br>
+        <input type="checkbox" name="seleccion">Llantas (+200 €)<br>
+        <input type="checkbox" name="seleccion">Climatizador (+800 €)<br>
+        <input type="checkbox" name="seleccion">GPS (+340 €)<br>
+        <input type="checkbox" name="seleccion">DVD (+800 €) (Solo modelo Familiar)<br><br>
+    </div>
+	
+    <div id="total">
+        <p>Total a Cobrar</p>
+        <button onclick="Precio()">Calcular</button><br>
+    </div>
+</form>
+</body>
+</html>

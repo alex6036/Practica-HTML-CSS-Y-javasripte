@@ -1,0 +1,99 @@
+#Examen
+{
+    margin-left: 10em;
+	width:15em;
+}
+#pregunta1
+{
+    background-color: #CDD2D6;
+    width: 65em;
+    height: 10em;
+    margin-left: 1em;
+}
+#pregunta2
+{
+    background-color: #CDD2D6;
+    width: 65em;
+    height: 10em;
+    margin-left: 1em;
+}
+#pregunta3
+{
+    background-color: #CDD2D6;
+    width: 65em;
+    height: 10em;
+    margin-left: 1em;
+}
+#pregunta4
+{
+    background-color: #CDD2D6;
+    width: 65em;
+    height: 10em;
+    margin-left: 1em;
+}
+#pregunta5
+{
+    background-color: #CDD2D6;
+    width: 65em;
+    height: 10em;
+    margin-left: 1em;
+}
+#enunciado1
+{
+    margin-left: 1em;
+    padding-top: 0.7em;
+    font-family: verdara;
+}
+#enunciado2
+{
+    margin-left: 1em;
+    padding-top: 0.7em;
+    font-family: verdara;
+}
+#enunciado3
+{
+    margin-left: 1em;
+    padding-top: 0.7em;
+    font-family: verdara;
+}
+#enunciado4
+{
+    margin-left: 1em;
+    padding-top: 0.7em;
+    font-family: verdara;
+}
+#enunciado5
+{
+    margin-left: 1em;
+    padding-top: 0.7em;
+    font-family: verdara;
+}
+#seleccion1
+{
+    margin-left: 1em;
+    font-family: verdara;
+}
+#seleccion2
+{
+    margin-left: 1em;
+    font-family: verdara;
+}
+#seleccion3
+{
+    margin-left: 1em;
+    font-family: verdara;
+}
+#seleccion4
+{
+    margin-left: 1em;
+    font-family: verdara;
+}
+#seleccion5
+{
+    margin-left: 1em;
+    font-family: verdara;
+}
+#boton
+{
+    margin-left: 30em;
+}
